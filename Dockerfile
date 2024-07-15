@@ -1,6 +1,6 @@
 FROM node:21-alpine
 
-ENV BRUNO_VERSION="1.20.1"
+ENV BRUNO_VERSION="1.20.3"
 
 RUN npm install --global @usebruno/cli@${BRUNO_VERSION}
 
